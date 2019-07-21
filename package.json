@@ -1,6 +1,6 @@
 {
   "name": "@jimpick/use-filecoin-asks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React hook to query asks via Filecoin API",
   "main": "dist/useFilecoinAsks.js",
   "module": "./useFilecoinAsks.js",
@@ -13,9 +13,9 @@
   "author": "Jim Pick (@jimpick)",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0"
   },
   "babel": {
@@ -30,8 +30,8 @@
     "type": "git",
     "url": "git+https://github.com/jimpick/use-filecoin-asks.git"
   },
-  "dependencies": {
-    "filecoin-api-client": "^0.2.0",
+  "peerDependencies": {
+    "filecoin-api-client": "^0.3.0",
     "react": "^16.8.6"
   }
 }
