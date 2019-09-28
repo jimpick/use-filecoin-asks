@@ -15,7 +15,7 @@ export default function useFilecoinAsks () {
       setAsks(asks)
     }
     doWork()
-  }, true)
+  }, [])
 
   return [asks]
 }
